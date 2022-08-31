@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Formulario do Atleta</h3>
+    <form action="">
+        <div>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <br/>
+
+        <div>
+            <label for="e-mail">E-mail</label>
+            <input type="text" name="e-mail" id="e-mail"> -
+            <label for="password">Senha</label>
+            <input type="text" name="password" id="password">
+        </div>
+        <br/>
+
+        <div>
+            <label for="birthday">Data de Nascimento:</label>
+            <input type="date" name="birthday" id="birthday"> -
+            <label for="photo">Foto</label>
+            <input type="file" name="photo" id="photo">
+        </div>
+        <br/>
+
+        <div>
+            <label for="nationalyti">Nacionalidade</label>
+            <select name="nationalyti" id="nationalyti">
+                <option value="russian">Russa</option>
+                <option value="american">Americana</option>
+                <option value="brasilian">Brasileira</option>
+            </select>
+
+             - Genero:
+            <label for="Genero">F</label>
+            <input type="radio" id="Gender" name="female" value="female">
+            <label for="Genero">M</label>
+            <input type="radio" id="Gender" name="male" value="male">
+        </div>
+
+        
+        <p>Suas principais qualidades:<p>
+        
+        <label for="int">Inteligencia</label>
+        <input type="checkbox" name="int" id="int"> | 
+        <label for="tg">Trabalha em grupo</label> 
+        <input type="checkbox" name="tg" id="tg"> |
+        <label for="prep">Preparo fisico</label> 
+        <input type="checkbox" name="prep" id="prep"> |
+        <label for="edu">Educação</label>
+        <input type="checkbox" name="edu" id="edu">
+        <br/>
+        <br/>
+        
+        <textarea name="description" id="description" cols="30" rows="10" placeholder="Porque você gostaria de ser um atleta ?"></textarea>
+        <br/>
+        <br/>
+
+        <input type="submit" value="Enviar"> 
+
+    </form>
+</body>
+</html>
